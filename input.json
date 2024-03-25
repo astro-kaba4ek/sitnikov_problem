@@ -1,0 +1,19 @@
+{
+	"input_parameters": {
+		"e": 0.3,
+		"h0_array": [0.3, 0.6, 0.9],
+		"n_rot": 300
+	},
+	"integrator": {
+		"method": "DOP853"
+	},
+	"graphs": {
+		"poincare": true,
+		"orbit": true
+	},
+	"output_files": {
+		"poincare_color": "multicoloured",
+		"save_dir_pic": "graphics",
+		"save_dir_txt": "output"
+	}
+}
