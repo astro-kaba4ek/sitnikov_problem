@@ -17,7 +17,7 @@ The program implements a numerical solution to the [Sitnikov's problem](https://
 - **integrator.method** — the integration method used to solve a system of differential equations (RK45, RK23, DOP853, Radau, BDF or LSODA)
 - **graphs.poincare** — if this parameter is True, Poincare sections will be constructed
 - **graphs.orbit** — if this parameter is True, a visual animation of the movement of bodies will be created
-- **output_files.poincare_color** — the color palette of the Poincare section graph
+- **output_files.poincare_color** — the color palette of the Poincare section graph (gradient, multicoloured, black)
 - **output_files.save_dir_pic** — the path to save the graphs
 - **output_files.save_dir_txt** — the path to save the calculated data
 

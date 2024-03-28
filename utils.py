@@ -19,7 +19,7 @@ def create_parser():
 	parser = argparse.ArgumentParser(
 		description="""The program implements a numerical solution to the Sitnikov's problem, \n
 		builds Poincare sections and creates visualization of the motion of bodies.""",
-    	epilog="""Program written as part of the course "Computer Simulation" under the guidance of Docent V.S. Shaidulin. Author S.I. Laznevoi.""")
+    	epilog="""Program written as part of the course "Computer Simulation" under the guidance of Assistant professor V.S. Shaidulin. Author S.I. Laznevoi.""")
 	
 	parser.add_argument("-in_f", "--input", help="the full name of the input-file")
 	parser.add_argument("-e", "--eccentricity", default=0.1, type=float, help="the general eccentricity of massive bodies")
